@@ -3,19 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #D1D6DA;
+}
 .navbar ul{
     display:flex;
     justify-content: space-between;
-    align-items:baseline;
+    align-items:center;
     padding-top: 0;
     width: auto;
     text-align: center;
-    color:#c5d5d8;
+    color:#585b5d;
     font-family:Arial, Helvetica, sans-serif ;
     font-style: normal;
     font-size:smaller;
     margin: 10px;
     padding: 25px;
+    
+}
+.navbar li{
+    margin: 10px;
+}
+.menudenavigation{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
 ul{
    list-style: none; 
@@ -27,7 +39,7 @@ ul{
     display: flex;
     justify-content:space-between;
     align-items:center;
-    background-color:#124a85;
+    background-color:#d2dbe2;
 }
 .boxheader{
     display: flex;
@@ -39,7 +51,7 @@ ul{
     height:500px; 
 }
 .boxheader h1{
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     color:#124a85;
@@ -80,4 +92,68 @@ ul{
 }
 #burger{
     display: none;
+}
+.sensi {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sensi button {
+    color:#fafafa ;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin: 50px;
+    text-shadow: 5px 5px 4px #00000040;
+    box-shadow: 17px 17px 4px 0px #A1A1A140;
+}
+#button1 {
+    background-color: #FD8A69;
+}
+#button2 {
+    background-color: #11417D;
+}
+#button3 {
+    background-color: #47A18B;
+}
+#button4 {
+    background-color:#989999 ;
+}
+#button5 {
+    width: 90%;
+    background-color: #D7D8D9;
+    border-radius: 10px;
+    color:#6C757D ;
+    font-size: 30px;
+    border: 1px solid black;
+}
+#button6 {
+    background-color: #11417D;
+    
+}
+#button7 {
+    background-color: #989999;
+}
+#button8 {
+    background-color:#FD8A69 ;
+}
+#button9 {
+    background-color:#47A18B ;
+} 
+.diag {
+    text-align: center;
+}
+.diag img{
+    border-radius: 15px;
+    box-shadow: 5px 5px 4px 0px #00000080;
+
+}
+footer{
+    
+background: linear-gradient(135deg, rgba(152,153,153,1) 0%, rgba(17,65,125,1) 53%);
 }
