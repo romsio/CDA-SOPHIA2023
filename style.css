@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar ul{
+    display:flex;
+    justify-content: space-between;
+    align-items:baseline;
+    background:#124a85;
+    padding-top: 0;
+    padding: 25px;
+    width: auto;
+    
+    
+}
+.navbar ul {
+    text-align: center;
+    color:#c5d5d8;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    font-size:smaller;
+}
+
+ul{
+   list-style: none; 
+}
+.logodsi img{
+    height:10%;
+    width: 15%;
+}
+.navbar img logodsi{
+    display: flex;
+    justify-content:space-between;
+    align-items:baseline;
+}
+.boxheader{
+    background:linear-gradient(#c5d5d8,#124a85);
+    ;
+    padding-top: 0;
+    width: 100%;
+    height:500px; 
+}
+
+
+.boxheader h1{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#124a85;
+    padding: 150px;
+}
+.boxheader h1 span{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fb8e6f;
+      
+}
+.boxheader p{
+    text-align: left;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:25px;
+    color:#c5d5d8;
+    margin-block-start: auto;
+
+}
+.navbar{
+background-color:#c5d5d8;
+
+}
+
+.navbar label{
+    background-color:#fb8e6f;
+    color:#c5d5d8;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    right: 40px;
+    z-index: 2; 
+}
+.navbar label i{
+    margin-top: 5px;
+     transition: all .2s ease-in-out; 
+}
+#burger:checked ~.menu navigation{
+    display: flex;
+    text-align: center;
+}
