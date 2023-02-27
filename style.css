@@ -8,28 +8,31 @@
     justify-content: space-between;
     align-items:baseline;
     padding-top: 0;
-    padding: 25px;
     width: auto;
     text-align: center;
     color:#c5d5d8;
     font-family:Arial, Helvetica, sans-serif ;
     font-style: normal;
     font-size:smaller;
+    margin: 10px;
+    padding: 25px;
 }
 ul{
    list-style: none; 
 }
 .logodsi img{
-    height:10%;
-    width: 15%;
+    width: 60%;
 }
 .navbar{
     display: flex;
     justify-content:space-between;
-    align-items:baseline;
+    align-items:center;
     background-color:#124a85;
 }
 .boxheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background:linear-gradient(#c5d5d8,#124a85);
     padding-top: 0;
     width: 100%;
@@ -40,21 +43,22 @@ ul{
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     color:#124a85;
-    padding: 150px;
+    margin: 50px;
+    
 }
 .boxheader h1 span{
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     color:#fb8e6f;     
 }
 .boxheader p{
-    text-align: left;
-    align-items: flex-start;
+    text-align:center;
     font-family: Arial, Helvetica, sans-serif;
     padding:25px;
     color:#c5d5d8;
-    margin-block-start: auto;
+    /*margin-block-start: auto;*/
+    padding: 100px;
 }
 .navbar label{
     background-color:#fb8e6f;
