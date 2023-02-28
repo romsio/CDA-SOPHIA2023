@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    font-family: 'Roboto',sans-serif ;
     background-color: #D1D6DA;
 }
 .navbar ul{
@@ -14,7 +15,7 @@ body {
     width: auto;
     text-align: center;
     color:#585b5d;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family:'Roboto',sans-serif ;
     font-style: normal;
     font-size:smaller;
     margin: 10px;
@@ -35,6 +36,7 @@ ul{
 .logodsi img{
     width: 60%;
 }
+
 .navbar{
     display: flex;
     justify-content:space-between;
@@ -45,32 +47,40 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(#c5d5d8,#124a85);
+    background: rgb(152,153,153);
+    background: linear-gradient(287deg, rgba(152,153,153,1) 0%, rgba(21,61,111,1) 53%); 
     padding-top: 0;
     width: 100%;
-    height:500px; 
+    box-shadow: 5px 5px 4px 0px #00000080;
 }
 .boxheader h1{
     text-align: center;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#124a85;
+    font-family:"Audiowide",sans-serif;
+    color:#c5d5d8;
     margin: 50px;
-    
+    font-weight: 400;
+    font-size: 2em;  
 }
 .boxheader h1 span{
     text-align: center;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
     color:#fb8e6f;     
 }
 .boxheader p{
     text-align:center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding:25px;
     color:#c5d5d8;
-    /*margin-block-start: auto;*/
+    font-weight: 400;
     padding: 100px;
+}
+.reunionpro, .presentation {
+    width: 50%;
+    
+}
+.reunionpro img{
+width: 90%;
+height: 55%;
+box-shadow: 5px 5px 4px 0px #00000080;
 }
 .navbar label{
     background-color:#fb8e6f;
@@ -103,8 +113,9 @@ ul{
 
 .sensi button {
     color:#fafafa ;
-    width: 150px;
-    height: 150px;
+    width: 15em;
+    height:15em;
+    font-weight: 600;
     border: none;
     border-radius: 20px;
     text-transform: uppercase;
@@ -125,12 +136,14 @@ ul{
     background-color:#989999 ;
 }
 #button5 {
-    width: 90%;
+    width:30em;
+    height: 15em;
     background-color: #D7D8D9;
     border-radius: 10px;
     color:#6C757D ;
     font-size: 30px;
     border: 1px solid black;
+    font-family: ;
 }
 #button6 {
     background-color: #11417D;
@@ -151,9 +164,39 @@ ul{
 .diag img{
     border-radius: 15px;
     box-shadow: 5px 5px 4px 0px #00000080;
-
+    width:85%;
+    height: 0%;
+    margin: 10%; 
 }
 footer{
-    
 background: linear-gradient(135deg, rgba(152,153,153,1) 0%, rgba(17,65,125,1) 53%);
+height:30em;
+}
+.formulaire{
+    font-family:'Roboto', sans-serif;
+    color:#fafafa ;
+}
+#addres{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+#formulaire{
+    background-color: #11417D;
+    width: 35em;
+    height: 25em;
+    border-radius:0.5em;
+    box-shadow: 10px 10px 4px 0px #FD8A6980;
+    
+}
+.formulaire{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+#social div {
+border-radius: 50%;
+background: #fafafa;
 }

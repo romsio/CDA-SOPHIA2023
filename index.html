@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <title>cdasophia2023</title>
@@ -151,34 +152,38 @@
                 Création des  champs à remplir pour la création du formulaire 
             Création d'une pop-up mail message envoyer (envoyer) 
             -->
-            <form action="NomPrénom" method="post">
-                <div class="champs1">
-                    <Label for="NomPrénom"></Label>
-                    <input type="text" name="NomPrénom" id="NomPrénom" placeholder="NomPrénom" size="25" required>
-                </div>
-                <div class="champs2 ">
-                    <Label for="Entreprise"></Label>
-                    <input type="text" name="Entreprise" id="Entreprise" placeholder="Entreprise" size="25" required>
-                </div>
-                <div class="champs3">
-                    <Label for="Email"></Label>
-                    <input type="email" name="email" id="Email" placeholder="email" size="25" required>
-                </div>
-                <input type="submit" value="Envoyé" id="envoi" size="25">
-                <!--Importation de mes images depuis l'outil fontawesome 
-                on récupère le chemin de référence de notre icone-->
-                <div id="social">
-                    <div class="social1">
-                        <a href="">"<i class="fa-brands fa-facebook"></i></a>
+            <div id="formulaire">
+                <form action="NomPrénom" method="post">
+                    
+                    <div class="champs1">
+                        <Label for="NomPrénom"></Label>
+                        <input type="text" name="NomPrénom" id="NomPrénom" placeholder="NomPrénom" size="25" required>
                     </div>
-                    <div class="social2">
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <div class="champs2 ">
+                        <Label for="Entreprise"></Label>
+                        <input type="text" name="Entreprise" id="Entreprise" placeholder="Entreprise" size="25" required>
                     </div>
-                    <div class="social3">
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <div class="champs3">
+                        <Label for="Email"></Label>
+                        <input type="email" name="email" id="Email" placeholder="email" size="25" required>
                     </div>
-                </div>
-            </form>
+                    <input type="submit" value="Envoyé" id="envoi" size="25">
+                    </div>
+                    <!--Importation de mes images depuis l'outil fontawesome 
+                    on récupère le chemin de référence de notre icone-->
+                    <div id="social">
+                        <div class="social1">
+                            <a href="">"<i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="social2">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="social3">
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </footer>
 </body>
